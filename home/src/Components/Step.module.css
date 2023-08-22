@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .stepNumber {
+    font-size: 2.5em;
+    color: #1B365C;
+    font-weight: 600;
+    margin: 0;
+
+  }
+  
+  .text {
+    font-size: 2em;
+    color: #f1f1f1;
+    text-align: justify;
+    color: #2B2C37;
+  }
+  .text2{
+    text-align: justify;
+  }
+  
+  
+  .stepBorder {
+    background-color: #1B365C;
+    height: 6px;
+    width: 60%;
+    max-width: 1200px;
+    margin-bottom: 20px;
+  }
+  
+  .stepContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (min-width: 990px) {
+    .stepContainer {
+      display: flex;
+      flex-direction: row;
+    }
+    .stepNumber {
+      padding-right: 40px;
+    }
+    .text2{
+      text-align: justify;
+      max-width: 800px;
+      color: #2B2C37;
+    }
+  }

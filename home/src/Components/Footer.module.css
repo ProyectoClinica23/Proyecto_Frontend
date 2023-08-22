@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.logo {
+    display: flex;
+    width: 150px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    padding: 0 10px;
+}

@@ -1,0 +1,18 @@
+.howWeWork {
+    display: flex;
+    padding: 100px 0;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  
+  .title {
+    font-size: 2.3em;
+    color: #2B2C37;
+    text-align: center;
+  }
+  @media (min-width: 990px) {
+    .title{
+      font-size: 3em;
+    }
+  }
+  

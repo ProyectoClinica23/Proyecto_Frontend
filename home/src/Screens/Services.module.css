@@ -1,0 +1,39 @@
+.services {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    background-color: #ffffff;
+    flex-direction: column;
+  }
+  
+  .webImage {
+    width: 298px;
+    height: 193px;
+    padding-bottom: 30px;
+  }
+  p{
+    color: #2B2C37;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0 35px;
+  }
+  
+  @media (min-width: 990px) {
+    .services {
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+    }
+    section{
+      padding: 0 20px;
+    }
+    .webImage {
+      width: 432px;
+      height: 288px;
+      padding: 0;
+    }
+    p{
+      font-size: 1.5em;
+    }
+  }
+  
