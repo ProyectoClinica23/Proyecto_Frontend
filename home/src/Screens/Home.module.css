@@ -1,0 +1,39 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding-bottom: 50px;
+    padding-top: 150px;
+  }
+  .titleContainer {
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+    padding: 50px 0;
+  }
+  .home .title{
+    font-size: 2.5em;
+    color: #2B2C37;
+  }
+  .callToAction {
+    background-color: #4EF7BA;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 20px;
+    color: #060F6F;
+    font-weight: 600;
+    margin: 0 20px;
+  }
+  
+  .ctaContainer {
+    padding-top: 80px;
+    text-align: center;
+  }
+  @media (min-width: 990px) {
+    .callToAction {
+      margin: 0 50px;
+    }
+    .callToAction:hover {
+      padding: 15px;
+      cursor: pointer;
+    }
+  }
