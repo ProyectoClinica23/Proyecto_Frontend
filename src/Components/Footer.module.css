@@ -7,48 +7,64 @@
     list-style: none;
     text-decoration: none;
 }
-
 .container{
-    display: flex;
-    width: 100%;
-    background-color: #D9D9D9;
-    justify-content: space-around;
-    align-items: center;
-    font-family: 'Raleway';
-    font-weight: 400;
-    padding: 0 20px;
+        display: flex;
+        width: 100%;
+        background-color: #D9D9D9;
+        align-items: center;
+        font-family: 'Raleway';
+        font-weight: 400;
+        padding: 0 20px;
+        justify-content: space-evenly;
 }
-.container_img{
-    display: block;
-}
-.img{
-    width: 150px;
-}
-@media (min-width: 800px) {
+
+    .img{
+        width: 100px;
+    }
     .footer{
-    display: flex;
-    padding: 50px 0;
-    text-align: center;
+        
+        text-align: center;
     }
-    .sede{
-        padding-right: 50px;
-    }
-    .sede p{
+    .subtitulo, .text{
         color: #060F6F;
+    } 
+    .subtitulo{
+        font-family: 'Raleway';
+        font-weight: 600;   
+        font-size: 0.7em;
+        margin: 0;
     }
-    .contacto{
-        padding: 0 50px;
-        border-left: 2px solid #4EF7BA ;
+    .text{
+        font-size: 0.7em;
+        font-family: 'Poppins';
     }
-    .contacto p{
-        color: #060F6F;
+    
+    @media (min-width: 800px) {
+        .img{
+            width: 150px;
+        }
+        .footer{
+            display: flex;
+            padding: 50px 0;
+            text-align: center;
+            flex-direction: row;
+        }
+        .sede{
+            padding-right: 50px;
+        }
+        .contacto{
+            padding: 0 50px;
+            border-left: 2px solid #4EF7BA ;
+        }
+        
+        .horario{
+            padding: 0 50px;
+            border-left: 2px solid #4EF7BA ;
+        }
+        .subtitulo{
+            font-family: 'Raleway';
+            font-weight: 600;   
+            font-size: 1em;
+        }
     }
-    .horario{
-        padding: 0 50px;
-        border-left: 2px solid #4EF7BA ;
-    }
-    .horario p{
-        color: #060F6F;
-    }
-}
 

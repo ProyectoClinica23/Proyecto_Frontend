@@ -16,15 +16,15 @@ const Home = () => {
             <div className={styles.container}>
                 <section name='Inicio' className={styles.banner}>
                 <div className={styles.banner_carrousel}>
-                    <Carousel>
+                    <Carousel data-bs-theme="dark">
                         <Carousel.Item>
-                            <img src={require("../../Assets/img1.png")} alt='foto'/>
+                            <img src={require("../../Assets/AssetsHome/Slider/img1.png")} alt='foto'/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img src={require("../../Assets/img2.png")} alt='foto'/>
+                            <img src={require("../../Assets/AssetsHome/Slider/img2.png")} alt='foto'/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img src={require("../../Assets/img3.png")} alt='foto'/>
+                            <img src={require("../../Assets/AssetsHome/Slider/img3.png")} alt='foto'/>
                         </Carousel.Item>
                     </Carousel>
                 </div>
@@ -35,9 +35,9 @@ const Home = () => {
                 </section>
                 <section name='Servicios' className={styles.servicios}>
                 <div className={styles.opciones}>
-                    <img className={styles.img_banner} src={require("../../Assets/Frame 29.png")} alt='foto'/>
-                    <img className={styles.img_banner} src={require("../../Assets/Frame 30.png")} alt='foto'/>
-                    <img className={styles.img_banner} src={require("../../Assets/Frame 31.png")} alt='foto'/>
+                    <img className={styles.img_banner} src={require("../../Assets/AssetsHome/Services/uno.png")} alt='foto'/>
+                    <img className={styles.img_banner} src={require("../../Assets/AssetsHome/Services/dos.png")} alt='foto'/>
+                    <img className={styles.img_banner} src={require("../../Assets/AssetsHome/Services/tres.png")} alt='foto'/>
                 </div>
                 </section>
                 <section name='Preguntas' className={styles.acordion}>

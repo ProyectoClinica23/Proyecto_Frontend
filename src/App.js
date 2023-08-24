@@ -5,6 +5,8 @@ import Estudios from "./Screens/Estudios/Estudios";
 import Institucion from "./Screens/Institucional/Institucion";
 import Usuario from "./Screens/Usuarios/Usuario";
 import Contacto from './Screens/Contacto/Contacto';
+import Accede from './Screens/Accede/Accede';
+import Registro from './Screens/Registro/Registro';
 
 
 function App() {
@@ -16,8 +18,10 @@ function App() {
           <Route path='/' exact element={<Home/>} />
           <Route path='/usuarios' element={<Usuario/>}/>
           <Route path='/estudios' element={<Estudios/>}/>
-          <Route path='/institucional' element={<Institucion/>}/>
+          <Route path='/institucion' element={<Institucion/>}/>
           <Route path='/contacto' element={<Contacto/>}/>
+          <Route path='/accede' element={<Accede/>}/>
+          <Route path='/registro' element={<Registro/>}/>
         </Routes>
       </Router>
     </div>
