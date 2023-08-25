@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+        padding-top: 110px;
+    }
+    .img{
+        background-color: #6b6b6b;
+        width: 100%;
+        height: 20vh;
+    }
+
+
+    .historia{
+        padding: 50px 20px 0px;
+    }
+    .titulo{
+        font-size: 1.8em;
+        padding-bottom: 10px;
+        color: rgb(0, 0, 0);
+        font-family: 'Raleway';
+        font-weight: 600;
+    }
+    .texto_historia{
+        text-align: justify;
+        font-family: 'Poppins';
+        font-size: 0.8em;
+        color: rgb(0, 0, 0);
+    }
+
+
+    .costado{
+        margin: 70px 0;
+        }
+    .mini_foto{
+        width: 100%;
+    }
+    .mini_foto img{
+        width: 300px;
+    }
+    .descripcion{
+        padding-top: 20px;
+        text-align: center;
+    }
+    .subtitulo{
+        font-size: 1.3em;
+        font-family: 'Raleway';
+        font-weight: 600;
+        padding: 10px 0;
+    }
+    .nombre{
+        font-family: 'Poppins';
+        font-size: 0.8em;
+        color: rgb(0, 0, 0);
+    }
+
+
+    .equipamiento{
+        margin-bottom: 100px;
+    }
+    .equipamiento h2{
+        font-size: 1.3em;
+        font-family: 'Raleway';
+        font-weight: 600;
+        padding-bottom: 50px;
+    }
+    .banner_carrousel{
+        width: 100%
+    }
+    .banner_carrousel img{
+        width: 300px;
+    }
+
+    
+    .politicas{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .texto_politica{
+        padding-bottom: 20px;
+    }
+    .texto_politica h2{
+        font-size: 1.3em;
+        font-family: 'Raleway';
+        font-weight: 600;
+        padding-bottom: 20px;
+    }
+    .texto_politica p{
+        font-family: 'Poppins';
+        font-size: 0.8em;
+        color: #000000;
+    }
+    .puntos{
+        display: flex;
+        flex-direction: column;
+    }
+    .puntos p{
+        font-family: 'Poppins';
+        font-size: 0.8em;
+        color: #000000;
+    }
+    .texto_politica_fin p{
+        padding-top: 80px;
+        font-family: 'Poppins';
+        font-size: 0.8em;
+        color: #000000;
+    }
+    @media (min-width: 800px){
+        .img_principal{
+            align-items: center;
+            text-align: center;
+            padding: 0 30px;
+        }
+        .img{
+            height: 60vh;
+        }
+        .texto{
+        display: flex;
+        padding: 50px 10px;
+        }
+        .historia{
+            max-width: 60%;
+            padding-right: 50px;
+        }
+        .titulo{
+            text-align: start;
+            font-size: 2.5em;
+        }
+        .historia p{
+            font-size: 1em;
+            text-align: justify;
+        }
+        .costado{
+            margin-left: 150px;
+        }
+        .mini_foto img{
+            width: 500px;
+        }
+        .subtitulo{
+            font-size: 2em;
+        }
+        .nombre{
+            font-size: 1.2em;
+        }
+        
+        .equipamiento h2{
+            font-size: 2em;
+        }
+        .banner_carrousel img{
+            width: 700px;
+        }
+        
+        .texto_politica h2{
+            font-size: 2em;
+            font-family: 'Raleway';
+            font-weight: 600;
+            padding-bottom: 20px;
+        }
+        .texto_politica p{
+            font-family: 'Poppins';
+            font-size: 1.2em;
+            color: #000000;
+        }
+        .puntos{
+            padding: 0 400px;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .puntos p{
+            width: 200px;
+            padding: 0 10px;
+            font-family: 'Poppins';
+            font-size: 1em;
+            color: #000000;
+        }
+        .texto_politica_fin p{
+            font-size: 1em;
+        }
+    }
